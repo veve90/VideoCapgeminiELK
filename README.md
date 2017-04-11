@@ -16,7 +16,6 @@ https://docs.docker.com/compose/install/
 ### Start docker
 https://elk-docker.readthedocs.io/#elasticsearch-logstash-kibana-elk-docker-image-documentation 
 
-
  *   5601 (Kibana web interface).
  *   9200 (Elasticsearch JSON interface).
  *   5044 (Logstash Beats interface, receives logs from Beats such as Filebeat – see the Forwarding logs with Filebeat section).
