@@ -20,10 +20,11 @@ https://elk-docker.readthedocs.io/#elasticsearch-logstash-kibana-elk-docker-imag
  *   9200 (Elasticsearch JSON interface).
  *   5044 (Logstash Beats interface, receives logs from Beats such as Filebeat – see the Forwarding logs with Filebeat section).
 
-
+```
 sysctl -w vm.max_map_count=262144
 sudo systemctl start docker
 sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk
+```
 ### Start ELK docker
 
 
